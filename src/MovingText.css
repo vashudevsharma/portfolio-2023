@@ -1,0 +1,22 @@
+.moving-text-container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+
+.moving-text{
+    position: absolute;
+    font-size: 72px;
+    font-weight: 600;
+    animation: moveText 20s linear infinite;
+}
+
+@keyframes moveText {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

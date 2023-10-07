@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: white;
+    position: relative;
+    display: block;
+    margin: 0rem 10rem;
+    margin-top: 1rem;
+    padding: 1.3rem;
+}
+.logoText{
+    display: inline-flex;
+    text-align: center;
+}
+
+.nav-links{
+    display: inline-flex;
+    gap: 3rem;
+    position: absolute;
+    right: 5rem
+}
+
+.nav-links > li {
+    list-style: none;
+}
+
+.nav-links > li > a {
+    text-decoration: none;
+    color: black;
+}

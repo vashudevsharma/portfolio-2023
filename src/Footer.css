@@ -1,0 +1,42 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 0 10%;
+    border-top: 1px solid black;
+}
+.company{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+.social{
+    display: inline-flex;
+}
+.social > ul {
+    display: inline-flex;
+    gap: 2rem;
+    list-style: none;
+}
+.social > ul > li > a {
+    text-decoration:none ;
+    color: black;
+    font-size: 1.5rem;
+}
+.social > ul > li > a:hover{
+    text-decoration:underline ;
+}
+.copy{
+    font-size: smaller;
+    margin-top: 1.5rem;
+    padding-bottom: 3rem;
+}

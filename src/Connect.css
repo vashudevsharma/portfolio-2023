@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 10%;
+}
+
+.heading {
+    font-size: 7rem;
+}
+.slogan{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0rem;
+}
+
+.ipt{
+    border-radius: 0;
+    border: 1px solid black;
+    width: 60vw;
+    color: rgba(0, 0, 0, 0.877);
+    font-size: 1.25rem;
+    text-align: center;
+}
+.btn{
+    border-radius: 0;
+    border: none;
+    width: 20vw;
+    height: 6vh;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+}
